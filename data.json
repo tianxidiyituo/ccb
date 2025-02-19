@@ -1,0 +1,18 @@
+
+[
+    {
+        "image": "apple",
+        "answer": "苹果",
+        "wrongOptions": ["香蕉", "橘子", "葡萄"]
+    },
+    {
+        "image": "banana",
+        "answer": "香蕉",
+        "wrongOptions": ["苹果", "菠萝", "西瓜"]
+    },
+    {
+        "image": "car",
+        "answer": "汽车",
+        "wrongOptions": ["飞机", "轮船", "火车"]
+    }
+]

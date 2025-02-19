@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <title>看图猜名挑战赛</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="game-container">
+        <div class="status-bar">
+            <div id="timer">剩余时间：60秒</div>
+            <div id="score">当前得分：0</div>
+        </div>
+        
+        <div id="gameScreen">
+            <img id="questionImage" src="" alt="题目图片">
+            <div class="options-container" id="options"></div>
+        </div>
+
+        <div id="endScreen" class="hidden">
+            <h2>游戏结束！</h2>
+            <p>最终得分：<span id="finalScore">0</span></p >
+            <p>等级：<span id="rank">未评级</span></p >
+            <button onclick="startGame()">重新开始</button>
+        </div>
+    </div>
+
+    <script src="js/game.js"></script>
+</body>
+</html>
