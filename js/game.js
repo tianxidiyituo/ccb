@@ -1,4 +1,6 @@
-分
+// 游戏配置
+const TOTAL_TIME = 60; // 总游戏时间（秒）
+const POINTS_PER_CORRECT = 5; // 每题得分
 let currentScore = 0;
 let timeLeft = TOTAL_TIME;
 let timerId = null;
